@@ -6,13 +6,12 @@ Thank you for your interest in contributing! Here's how you can help.
 
 ### Reporting Bugs
 
-1. Check existing [Issues](https://github.com/SoCloseSociety/InstagramMpBulk/issues) first
-2. Open a new issue with:
-   - Your OS (Windows / macOS / Linux)
-   - Python version (`python --version`)
-   - Browser and version (Firefox / Chrome)
-   - Steps to reproduce
-   - Error message / logs
+Open a new issue with:
+- Your OS (Windows / macOS / Linux)
+- Python version (`python --version`)
+- Browser and version (Firefox / Chrome)
+- Steps to reproduce
+- Error message / logs
 
 ### Suggesting Features
 
@@ -40,8 +39,8 @@ Open an issue with the `enhancement` label describing:
 ## Development Setup
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/InstagramMpBulk.git
-cd InstagramMpBulk
+git clone https://github.com/mahmad-dev/InstagramMpBulkSender.git
+cd InstagramMpBulkSender
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
@@ -50,4 +49,4 @@ cp .env.example .env
 
 ## Questions?
 
-Open an issue or start a discussion. We're happy to help!
+Open an issue or start a discussion.

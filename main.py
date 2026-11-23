@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Instagram DM Bulk Automation — Powered by SoClose
-https://soclose.co
+Instagram DM Bulk Automation
+Outreach tool for ISWI team.
 """
 
 import os
@@ -44,7 +44,7 @@ from selenium.common.exceptions import (
 )
 
 
-# ─── SoClose Brand Theme ────────────────────────────────────
+# ─── Theme ──────────────────────────────────────────────────
 
 SOCLOSE_THEME = Theme(
     {
@@ -83,21 +83,20 @@ logging.basicConfig(
     format="%(message)s",
     handlers=[RichHandler(console=console, rich_tracebacks=True, show_path=False)],
 )
-log = logging.getLogger("soclose")
+log = logging.getLogger("igdm")
 
 
 # ─── Helpers ─────────────────────────────────────────────────
 
 
 def show_banner():
-    """Display the SoClose branded banner."""
+    """Display the banner."""
     console.print()
     console.print(
         Panel(
             "[bold #575ECF]Instagram DM Bulk Automation[/]\n"
-            "[#c5c1b9]Digital Innovation Through Automation & AI[/]\n"
-            "[#c5c1b9]https://soclose.co[/]",
-            title="[bold #575ECF]SoClose[/]",
+            "[#c5c1b9]Outreach tool for ISWI team[/]",
+            title="[bold #575ECF]IG DM Bulk Sender[/]",
             border_style="#575ECF",
             padding=(1, 4),
         )
@@ -474,7 +473,7 @@ def run():
         console.print(
             Panel(
                 f"[success]{count} messages sent successfully.[/]",
-                title="[bold #575ECF]Complete[/]",
+                title="[bold #575ECF]Done[/]",
                 border_style="#575ECF",
             )
         )
